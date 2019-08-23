@@ -4,7 +4,13 @@ We proposes a hierarchical classification method by using geometry and intensity
 ### Introduction of files
 Joint_XXX_unsupervised.ipynb is the the core part of our experiment 
 
+Parameter_1.ipynb shows how the setting of parameter in [**RF**](https://scikit-learn.org/stable/modules/ensemble.html#forest) and FPFH radius affect the result of supervised classification
+
+Parameter_2.ipynb shows how the setting of parameter in [**SVC**](https://scikit-learn.org/stable/modules/svm.html#svm-classification) and [**XGBoost**](https://xgboost.readthedocs.io/en/latest/) affect the result of supervised classification
+
 Utils.py include some useful function needed in Joint_XXX_unsupervised.ipynb
+
+fpfh_visualization.ipynb visualize the FPFH feature
 
 ### Feature extraction
 [**cloudcompare**](https://www.danielgm.net/cc/) is used for point normal estimation.  
